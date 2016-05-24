@@ -5,9 +5,12 @@ h3 {
 	display: inline-block;
 }
 
-.fancy {
-  width: 500px;
-  margin: 20px auto;
-  padding: 50px;
-  border-width: 10px;
+
+#posts_box {
+
+	background-color: white;
+	border-style: solid;
+	width: 600px;
+	height: 500px;
+
 }
