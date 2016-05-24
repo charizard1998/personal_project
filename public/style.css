@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+h3 {
+	display: inline-block;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+}

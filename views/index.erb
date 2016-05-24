@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+  	<h1> COLMINATION </h1>
+   <% @post.each do |post| %>
+	<h3> <%= post.author.username %> </h3> <%= post.content %>
+   <form action="demo_form.asp">
+ Your ideas: <input type="text" name="fname"><br>
+  <input type="submit" value="Submit">
+</form> 
+<% end %>
+  </body>
+</html>
+
+
+
